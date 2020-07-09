@@ -55,10 +55,15 @@ IDF - Inverse Document frequency :
            Classifiers          |    Yelp   |   Amazon    |   IMDB    |
 
 |   Logistic(CountVectorizer)   |    83%    |     77%     |    74%    |
+
 |        Logistic(TF-IDF)       |    82%    |     78%     |    76%    |
+
 |    XGBoost(CountVectorizer)   |    77%    |     71%     |    69%    |
+
 |        XGBoost(TF-IDF)        |    75%    |     74%     |    65%    |
+
 | RandomForest(CountVectorizer) |    80%    |     76%     |    74%    |
+
 |      RandomForest(TF-IDF)     |    73%    |     75%     |    71%    |
 
 After trying out this algorithms, I tried Deep learning algorithms as were in the given article.
